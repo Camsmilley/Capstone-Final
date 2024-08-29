@@ -16,11 +16,11 @@ const Home = () => {
 
       <div className="homeText">
         <span data-aos='fade-up' data-aos-duration='2000' className='spanText'>
-        Hike the Philippine Mountains and Enjoy
+        Discover scenic trails with TreksSafari
         </span>
 
         <div data-aos='fade-up' data-aos-duration='4000' className="homeTitle">
-          Trust <strong>Our Hiking Experience</strong>
+        <strong>Trust</strong> our <strong>Hiking Experience</strong>
         </div>
 
         <Link to="/booknow" data-aos='fade-up' data-aos-duration='6000' className="btn">Book Now</Link>

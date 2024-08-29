@@ -62,24 +62,17 @@ const About = () => {
           </div>
 
           <div className="sigleGrid">
-            <h2>About Our Experienced Staff</h2>
+            <h2>About Trekksafari Family</h2>
             <p>
-              At Treks Safari, we take pride in our team of experienced
-              professionals who are passionate about delivering exceptional
-              hiking experiences. Our staff members are knowledgeable,
-              friendly, and dedicated to ensuring your utmost satisfaction. From
-              our skilled drivers to our expert guides, we are here to make your
-              hiking adventure truly memorable. Count on our staff to provide
-              you with excellent service and personalized attention throughout
-              your journey.
+            We treat our adventurers like family, prioritizing their safety and satisfaction, and we 
+            can't wait for you to join our community.
             </p>
           </div>
           <div className="sigleGrid">
-            <h2>Trusted Accommodation and Booking Flight</h2>
+            <h2>Discover Trekksafari With Us</h2>
             <p>
-            Whether you're traveling on a budget, or looking to enjoy the best luxury accommodation, and booking flight
-            we know the hotels and resorts that we include in our itineraries. We only recommend those that
-            want to book hotels, and want to book flight.
+            At Trekksafari, we are your personal guides to the best hiking spots in the Philippines, 
+            ensuring safety and enjoyment for every adventure.
             </p>
           </div>
 

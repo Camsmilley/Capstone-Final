@@ -2,8 +2,8 @@ import React from 'react'
 import './Guide.css'
 
 // Imported Images
-import tourGuide from  '../../../assets/tour-guide.png'
-import tourPackage from '../../../assets/gift-box.png'
+import tourGuide from  '../../../assets/safety.png'
+import tourPackage from '../../../assets/fam.png'
 import safari from  '../../../assets/hiking.png'
 
 const Guide = () => {
@@ -11,8 +11,8 @@ const Guide = () => {
     <div className='guide container section'>
       <div className="secContainer">
         <span className="secTitle">
-          How to get started!
-          <p>Hike now! We are here to serve you.</p>
+        Explore Hiking Trails
+          <p>Discover breathtaking hiking spots in the Philippines with our dedicated personal guides for your adventure.</p>
         </span>
 
         <div className="grid steps">
@@ -20,12 +20,10 @@ const Guide = () => {
                <img src={tourPackage} alt="Image" />
                <div className="information">
                 <span className="title">
-                    Choose Your Package
+                Family-Like Experience
                 </span>
                 <p>
-                Visit top Hiking destinations in the Philippines with these all-inclusive hiking packages
-                 guided tours for a hassle-free vacation. Browse our collection of curated Philippines Hiking
-                  with the best itinerary, perfect for first-time visitors
+                Join us for a memorable hiking journey where your safety and enjoyment are our top priorities.
                 </p>
                </div>
             </div>
@@ -34,12 +32,10 @@ const Guide = () => {
                <img src={tourGuide} alt="Image" />
                <div className="information">
                 <span className="title">
-                    Contact Guide
+                Safety First Always
                 </span>
                 <p>
-                A guided hiking tour is the perfect way to experience a hike. You can let your guide handle the 
-                harder aspects of the hike, and you can just enjoy all the beauty that the hike has to offer. 
-                I offer customized, private guiding hiking tours and trips to small groups. 
+                We prioritize your safety while ensuring you have an enjoyable and unforgettable hiking experience with us. 
                 </p>
                </div>
             </div>
@@ -48,12 +44,10 @@ const Guide = () => {
                <img src={safari}alt="Image" />
                <div className="information">
                 <span className="title">
-                    Enjoy your trekssafari
+                Guided Hiking Adventures
                 </span>
                 <p>
-                Not only are these experiences enjoyable to have, but they’re good for you, too.
-                Hiking is proven to have many health benefits, ranging from physical exercise you get when out on the trail, 
-                to emotional or mental relief that comes from being in nature.
+                Experience the beauty of nature with our expert guides who treat you like family on every hike.
                 </p>
                </div>
             </div>
