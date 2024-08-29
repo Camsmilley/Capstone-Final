@@ -91,7 +91,7 @@ const Footer = () => {
                 <Link to='/ourpurpose' className="text-dark">Our Purpose</Link><br/>
                 <Link to='/whattowear' className="text-dark">What to Wear</Link><br/>
                 <Link to='/safety' className="text-dark">Safety</Link><br/>
-                <li>Careers</li>
+                <Link to='/trails' className="text-dark">Trails</Link>
               </ul>
              </div>
           </div>

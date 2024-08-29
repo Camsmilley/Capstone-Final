@@ -34,6 +34,7 @@ import BookNow from './GuestDashboard/BookNow';
 import Mission from './Components/Mission';
 import Wear from './Components/Wear';
 import Safety from './Components/Safety';
+import Trails from './Components/Trails';
 function App() {
   return (
     <AuthProvider>
@@ -49,7 +50,7 @@ function App() {
           <Route path="/ourpurpose" element={<Mission />} />
           <Route path="/whattowear" element={<Wear />} />
           <Route path="/safety" element={<Safety />} />
-
+          <Route path="/trails" element={<Trails />} />
 
           {/* Protected Routes */}
           <Route element={<ProtectedRoute />}>
