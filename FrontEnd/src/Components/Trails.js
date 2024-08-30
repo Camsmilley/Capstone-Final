@@ -47,7 +47,9 @@ const Trails = () => {
           </div>
           <br/>
 
-    <div className="card-group">
+    <div className="card-group" style={{width: '100%',
+      height: '100%'
+    }}>
   <div class="card">
     <img src={img} className="card-img-top" alt="..."/>
   </div>

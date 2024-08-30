@@ -1,9 +1,9 @@
 import React from 'react'
 import './Wear.css'
 import { GoDotFill } from "react-icons/go";
-import img from '../assets/outfit.jpg';
-import img1 from '../assets/outfit3.webp';
-import img2 from '../assets/outfit4.jpg';
+import img from '../assets/gear.webp';
+import img1 from '../assets/hike1.webp';
+import img2 from '../assets/hike2.webp';
 import img3 from '../assets/poles.webp';
 import img4 from '../assets/knee.jpg'
 import Header from './Header';
@@ -32,27 +32,32 @@ const Wear = () => {
 
       <div class="card-group">
   <div class="card">
-    <img src={img2} class="card-img-top" alt="..."/>
+    <img src={img} class="card-img-top" alt="..."/>
     <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      <h5 class="card-title">Materials</h5>
+      <p class="card-text">Consider waterproofing and breathability when picking out hiking shoes. 
+        If you’ll be spending lots of time crossing shallow streams, hiking through snow or mud, 
+        you might want waterproof boots. Just keep in mind that these boots tend to be far less 
+        breathable than their non-waterproof counterparts. That means that sweat gets trapped, and 
+        if you overtop the boots in a deeper stream or puddle, they’ll take longer to dry. For summer hiking,
+         many hikers prefer breathable, synthetic shoes (like those with mesh paneling) that dry faster if they do get wet.</p>
+    </div>
+  </div>
+  <div class="card">
+    <img src={img1} class="card-img-top" alt="..."/>
+    <div class="card-body">
+      <h5 class="card-title">What Not to Wear in Your First Hiking Outfit
+      Cotton</h5>
+      <p class="card-text">Normal T-shirts, denim jeans, sweatpants, sweatshirts, and other cotton apparel might serve you fine on short jaunts in the woods, but for serious hikes, leave them at home. Cotton retains moisture, making you clammy at best, and at worst, it sucks heat and leaves you hypothermic. Opt for wicking materials instead like wool or synthetic shirts and fleece layers. The exception: hikes in extremely hot, dry climates, 
+        where cotton’s cooling properties can help keep you from overheating.</p>
     </div>
   </div>
   <div class="card">
     <img src={img2} class="card-img-top" alt="..."/>
     <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-    </div>
-  </div>
-  <div class="card">
-    <img src={img2} class="card-img-top" alt="..."/>
-    <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      <h5 class="card-title">What Shoes to Wear Hiking</h5>
+      <p class="card-text">Sore feet lead to a bad time on trail. For your first few hikes, wear any sturdy, closed-toe athletic shoes you have. (Just pick a pair you don’t mind getting dirty.) Sneakers are fine for most easy to moderate trails, 
+        but you may want shoes with some extra traction and support for steep hikes.</p>
     </div>
   </div>
 </div><br/>
