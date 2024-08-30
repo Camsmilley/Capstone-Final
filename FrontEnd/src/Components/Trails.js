@@ -52,36 +52,36 @@ const Trails = () => {
   </div>  
   </div>
 
-  <div className='row container-fluid'>
-      <div class="card col-3 p-1 bg-white rounded-5">
+  <div className='row'>
+      <div class="card col-md-4 p-1 bg-white rounded-5">
         <img src={img} className="card-img-top rounded-5 " alt="..."/>
       </div>
-      <div class="card col-3 p-1 bg-white rounded-5 ">
+      <div class="card col-md-4 p-1 bg-white rounded-5 ">
         <img src={img} className="card-img-top rounded-5" alt="..."/>
       </div>
-      <div class="card col-3 p-1 bg-white rounded-5">
-        <img src={img} className="card-img-top rounded-5" alt="..."/>
-      </div>
-      <div class="card col-3 p-1 bg-white rounded-5">
+      <div class="card col-md-4 p-1 bg-white rounded-5">
         <img src={img} className="card-img-top rounded-5" alt="..."/>
       </div>
   </div>
 <br/> 
    
-<div className="card-group">
-  <div class="card">
-    <img src={img} className="card-img-top" alt="..."/>
-    </div>
+<div className="card-group rounded-5 gap-4 mt-5 mb-5">
+  <div class="card rounded-5">
+    <img src={img} className="card-img-top rounded-5" alt="..."/>
+      <div class="card-body bg-white">
     <h4>Discover the Best Hiking Trails in the Philippines with Trekssafari</h4>
     <p>Welcome to Trekssafari, your personal guide to the stunning hiking places in the Philippines. Our mission is to ensure your safety and enjoyment while exploring breathtaking trails. 
         Join us for an unforgettable adventure where you'll be treated like family. We can't wait to meet you and start hiking!</p>
-  
-  <div class="card">
-    <img src={img} className="card-img-top" alt="..."/>
+        </div>
+    </div>
+  <div class="card rounded-5">
+    <img src={img} className="card-img-top rounded-5" alt="..."/>
+    <div class="card-body bg-white">
     <h4>Explore the Best Hiking Trails in the Philippines with Trekssafari</h4>
     <p>Discover breathtaking hiking destinations in the Philippines with Trekssafari. Our personal guides prioritize your safety and enjoyment, ensuring a memorable adventure. Join us and experience the beauty 
         of nature while being treated like family. We can't wait to meet you and embark on this journey together!</p>
     </div>
+  </div>
   </div>
 
 <Footer/>

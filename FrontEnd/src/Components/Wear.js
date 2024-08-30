@@ -34,38 +34,46 @@ const Wear = () => {
             <GoDotFill className="icon"/>Hiking socks</p>
       </div>
 
-      <div class="card-group gap-4">
-  <div class="card card  col-3 p-3 bg-white rounded-5">
+  <div class="row gap-4">
+  <div class="col-md-3 p-2 bg-white rounded-5">
     <img src={img} class="card-img-top rounded-5" alt="..."/>
     <div class="card-body bg-white">
       <h5 class="card-title">Materials</h5>
-      <p class="card-text">Consider waterproofing and breathability when picking out hiking shoes. 
-        If you’ll be spending lots of time crossing shallow streams, hiking through snow or mud, 
-        you might want waterproof boots. Just keep in mind that these boots tend to be far less 
-        breathable than their non-waterproof counterparts. That means that sweat gets trapped, and 
-        if you overtop the boots in a deeper stream or puddle, they’ll take longer to dry. For summer hiking,
-         many hikers prefer breathable, synthetic shoes (like those with mesh paneling) that dry faster if they do get wet.</p>
     </div>
   </div>
-  <div class="card card col-3 p-3 bg-white rounded-5">
+  <div class="card col-md-3 p-2 bg-white rounded-5">
     <img src={img1} class="card-img-top rounded-5" alt="..."/>
     <div class="card-body bg-white">
       <h5 class="card-title">What Not to Wear in Your First Hiking Outfit
       Cotton</h5>
-      <p class="card-text">Normal T-shirts, denim jeans, sweatpants, sweatshirts, and other cotton apparel might serve you fine on short jaunts in the woods, but for serious hikes, leave them at home. Cotton retains moisture, making you clammy at best, and at worst, it sucks heat and leaves you hypothermic. Opt for wicking materials instead like wool or synthetic shirts and fleece layers. The exception: hikes in extremely hot, dry climates, 
-        where cotton’s cooling properties can help keep you from overheating.</p>
     </div>
   </div>
-  <div class="card card col-3 p-3 bg-white rounded-5">
+  <div class="card col-md-3 p-2 bg-white rounded-5">
     <img src={img2} class="card-img-top rounded-5" alt="..."/>
     <div class="card-body bg-white">
       <h5 class="card-title">What Shoes to Wear Hiking</h5>
-      <p class="card-text">Sore feet lead to a bad time on trail. For your first few hikes, wear any sturdy, closed-toe athletic shoes you have. (Just pick a pair you don’t mind getting dirty.) Sneakers are fine for most easy to moderate trails, 
-        but you may want shoes with some extra traction and support for steep hikes.</p>
     </div>
   </div>
-</div><br/>
-<br/>
+  <div class="card col-md-3 p-2 bg-white rounded-5">
+    <img src={img2} class="card-img-top rounded-5" alt="..."/>
+    <div class="card-body bg-white">
+      <h5 class="card-title">What Shoes to Wear Hiking</h5>
+    </div>
+  </div>
+  <div class="card col-md-3 p-2 bg-white rounded-5">
+    <img src={img2} class="card-img-top rounded-5" alt="..."/>
+    <div class="card-body bg-white">
+      <h5 class="card-title">What Shoes to Wear Hiking</h5>
+    </div>
+  </div>
+  <div class="card col-md-3 p-2 bg-white rounded-5">
+    <img src={img2} class="card-img-top rounded-5" alt="..."/>
+    <div class="card-body bg-white">
+      <h5 class="card-title">What Shoes to Wear Hiking</h5>
+    </div>
+  </div>
+          </div><br/>
+      <br/>
       <div className="col-12">
         <h3 className="fw-bold- text-success">For Cold Weather:</h3>
         <p><GoDotFill className="icon"/>Gloves or mittens <br/>
@@ -101,14 +109,14 @@ const Wear = () => {
 
                     <h3 className="fw-bold- text-success">Emergency Supplies:</h3><br/>
                     <div class="card-group gap-4">
-  <div class="card  col-3 p-3 bg-white rounded-5 ">
+  <div class="card col-md-3 p-2 bg-white rounded-5 ">
     <img src={img3} class="card-img-top rounded-5" alt="..."/>
     <div class="card-body bg-white">
       <h5 class="card-title className=fw-bold- text-success">Trekking Poles</h5>
       <p class="card-text">Trekking poles are great for steep trails</p>
     </div>
   </div>
-  <div class="card col-3 p-3 bg-white rounded-5">
+  <div class="card col-md-3 p-2 bg-white rounded-5">
     <img src={img4} class="card-img-top rounded-5" alt="..."/>
     <div class="card-body bg-white">
       <h5 class="card-title" className="fw-bold- text-success">Knee Brace</h5>

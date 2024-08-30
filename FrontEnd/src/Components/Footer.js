@@ -83,15 +83,13 @@ const Footer = () => {
 
           <div data-aos='fade-up' data-aos-duration='2000' className="row">
              <div className="spanText">
-              QUICK LINKS
+             Explore
              </div>
-             <div className="footerLinks">
+             <div className="explore">
               <ul>
-                <Link to='/about' className="text-dark">About Us</Link><br/>
-                <Link to='/ourpurpose' className="text-dark">Our Purpose</Link><br/>
-                <Link to='/whattowear' className="text-dark">What to Wear</Link><br/>
-                <Link to='/safety' className="text-dark">Safety</Link><br/>
-                <Link to='/trails' className="text-dark">Trails</Link>
+              <span className="text">
+              Your guide to hiking in the Philippines.
+              </span>
               </ul>
              </div>
           </div>

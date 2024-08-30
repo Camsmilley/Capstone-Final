@@ -43,10 +43,10 @@ const Login = () => {
   return (
     <>
       <Header />
-      <div className="container-fluid mt-5 mb-5">
+      <div className="container-fluid">
         <div className="row justify-content-center">
-          <div className="col-12 col-md-6 col-lg-4">
-            <div className="card formCard p-4 w-100" style={{marginTop: '230px', marginBottom: '130px',}}>
+          <div className="col-12 col-md-6 col-lg-4" style={{margin:'200px'}}>
+            <div className="card formCard p-4 w-100 ">
               <h2 className="text-center" >Login Page</h2>
               <span className="d-block text-center">Welcome Guest</span>
 

@@ -34,10 +34,10 @@ const Signup = () => {
   return (
     <>
       <Header />
-      <div className="container-fluid mt-5 mb-5">
+      <div className="container-fluid">
         <div className="row justify-content-center">
-          <div className="col-12 col-md-6 col-lg-4">
-            <div className="card formCard1 p-4" style={{marginTop: '230px', marginBottom: '130px',}}>
+          <div className="col-12 col-md-6 col-lg-4" style={{margin:'200px'}}>
+            <div className="card formCard1 p-4">
               <h2 className="text-center">SignUp Page</h2>
               <span className="d-block text-center">Create an account</span>
 

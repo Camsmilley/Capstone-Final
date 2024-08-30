@@ -22,17 +22,17 @@ const Safety = () => {
                     <h6 className='text-dark text-center'>Your safety and enjoyment is our priority during all hiking adventures in the Philippines.</h6>
       </div>
 
-      <div class="card-group">
-  <div class="card">
-    <img src={img} class="card-img-top" alt="..."/>
-    <div class="card-body">
+      <div class="card-group rounded-5 gap-4">
+  <div class="card rounded-5">
+    <img src={img} class="card-img-top rounded-5 " alt="..."/>
+    <div class="card-body bg-white">
       <h5 class="card-title">Guided Safely</h5>
       <p class="card-text">Our experienced guides prioritize your safety while helping you explore the beautiful hiking spots.</p>
     </div>
   </div>
-  <div class="card">
-    <img src={img2} class="card-img-top" alt="..."/>
-    <div class="card-body">
+  <div class="card rounded-5">
+    <img src={img2} class="card-img-top rounded-5" alt="..."/>
+    <div class="card-body bg-white">
       <h5 class="card-title">Family-Like Experience</h5>
       <p class="card-text">We treat every client as family, ensuring a fun, safe, and memorable hiking experience together.</p>
     </div>
