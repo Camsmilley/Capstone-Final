@@ -15,6 +15,11 @@ import { MdWrongLocation } from "react-icons/md";
 import { IoPricetagsSharp } from "react-icons/io5";
 
 const Details = () => {
+
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
+  
   const { id } = useParams();
   const { user } = useContext(AuthContext);
   const [safari, setSafari] = useState(null);

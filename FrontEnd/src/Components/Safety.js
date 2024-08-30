@@ -1,4 +1,4 @@
-import React from 'react';
+import {useEffect} from 'react';
 import './Safety.css';
 import Header from './Header';
 import Footer from './Footer';
@@ -7,6 +7,10 @@ import img2 from '../assets/mt-pinatubo.png';
 import img3 from '../assets/safety1.avif';
 
 const Safety = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
+
     return(
         <>
         <Header/>
@@ -58,10 +62,9 @@ const Safety = () => {
             </p>
           </div>
           </div>
-
-          <img src={img3} className="img-fluid" alt="..." style={{width: '100%'}}/>
     </div>
     </div>
+    <img src={img3} className="img-fluid" style={{height: '25rem'}} alt="..."/>
     <Footer/>
         </>
 )

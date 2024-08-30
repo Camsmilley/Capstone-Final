@@ -1,10 +1,16 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./About.css";
 import Header from "../../Components/Header";
 import Footer from "../../Components/Footer";
 import img from '../../assets/staff.webp';
 
 const About = () => {
+
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
+
+
   const [name, setName] = useState("");
   const [feedback, setFeedback] = useState("");
 
@@ -27,7 +33,7 @@ const About = () => {
     <>
       <Header />
       <div className="aboutPage container">
-        <span className="secTitle">
+        <span className="secTitle" style={{marginTop: '30px'}}>
           All About Treks Safari
           <p>Below is what you need to know about us!</p>
         </span>

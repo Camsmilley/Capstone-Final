@@ -1,4 +1,4 @@
-import React from 'react'
+import {useEffect} from 'react'
 import './Wear.css'
 import { GoDotFill } from "react-icons/go";
 import img from '../assets/gear.webp';
@@ -10,6 +10,10 @@ import Header from './Header';
 import Footer from './Footer';
 
 const Wear = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
+
   return (
     <div>
        <Header/>
@@ -30,10 +34,10 @@ const Wear = () => {
             <GoDotFill className="icon"/>Hiking socks</p>
       </div>
 
-      <div class="card-group">
-  <div class="card">
-    <img src={img} class="card-img-top" alt="..."/>
-    <div class="card-body">
+      <div class="card-group gap-4">
+  <div class="card card  col-3 p-3 bg-white rounded-5">
+    <img src={img} class="card-img-top rounded-5" alt="..."/>
+    <div class="card-body bg-white">
       <h5 class="card-title">Materials</h5>
       <p class="card-text">Consider waterproofing and breathability when picking out hiking shoes. 
         If you’ll be spending lots of time crossing shallow streams, hiking through snow or mud, 
@@ -43,18 +47,18 @@ const Wear = () => {
          many hikers prefer breathable, synthetic shoes (like those with mesh paneling) that dry faster if they do get wet.</p>
     </div>
   </div>
-  <div class="card">
-    <img src={img1} class="card-img-top" alt="..."/>
-    <div class="card-body">
+  <div class="card card col-3 p-3 bg-white rounded-5">
+    <img src={img1} class="card-img-top rounded-5" alt="..."/>
+    <div class="card-body bg-white">
       <h5 class="card-title">What Not to Wear in Your First Hiking Outfit
       Cotton</h5>
       <p class="card-text">Normal T-shirts, denim jeans, sweatpants, sweatshirts, and other cotton apparel might serve you fine on short jaunts in the woods, but for serious hikes, leave them at home. Cotton retains moisture, making you clammy at best, and at worst, it sucks heat and leaves you hypothermic. Opt for wicking materials instead like wool or synthetic shirts and fleece layers. The exception: hikes in extremely hot, dry climates, 
         where cotton’s cooling properties can help keep you from overheating.</p>
     </div>
   </div>
-  <div class="card">
-    <img src={img2} class="card-img-top" alt="..."/>
-    <div class="card-body">
+  <div class="card card col-3 p-3 bg-white rounded-5">
+    <img src={img2} class="card-img-top rounded-5" alt="..."/>
+    <div class="card-body bg-white">
       <h5 class="card-title">What Shoes to Wear Hiking</h5>
       <p class="card-text">Sore feet lead to a bad time on trail. For your first few hikes, wear any sturdy, closed-toe athletic shoes you have. (Just pick a pair you don’t mind getting dirty.) Sneakers are fine for most easy to moderate trails, 
         but you may want shoes with some extra traction and support for steep hikes.</p>
@@ -96,18 +100,18 @@ const Wear = () => {
                     <GoDotFill className="icon"/>Whistle</p><br/>
 
                     <h3 className="fw-bold- text-success">Emergency Supplies:</h3><br/>
-                    <div class="card-group">
-  <div class="card">
-    <img src={img3} class="card-img-top" alt="..."/>
-    <div class="card-body">
+                    <div class="card-group gap-4">
+  <div class="card  col-3 p-3 bg-white rounded-5 ">
+    <img src={img3} class="card-img-top rounded-5" alt="..."/>
+    <div class="card-body bg-white">
       <h5 class="card-title className=fw-bold- text-success">Trekking Poles</h5>
       <p class="card-text">Trekking poles are great for steep trails</p>
     </div>
   </div>
-  <div class="card">
-    <img src={img4} class="card-img-top" alt="..."/>
-    <div class="card-body">
-      <h5 class="card-title className=fw-bold- text-success">Knee Brace</h5>
+  <div class="card col-3 p-3 bg-white rounded-5">
+    <img src={img4} class="card-img-top rounded-5" alt="..."/>
+    <div class="card-body bg-white">
+      <h5 class="card-title" className="fw-bold- text-success">Knee Brace</h5>
       <p class="card-text">A good hiking knee brace can be a lifesaver for steep descents.</p>
     </div>
   </div>
