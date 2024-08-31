@@ -19,8 +19,7 @@ const Mission = () => {
       </div>
       <div className="col-12 ">
         <h5 className="fw-bold- text-success" style={{marginTop: '-30px'}}>Our Purpose</h5>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis at ipsa in corrupti provident assumenda 
-            odio mollitia optio commodi porro dolorum, officia sint quo ad enim error dolore consequuntur? Dignissimos?</p>
+        <p>To never stop exploring trails that expand both consumers and companies choices to discover and decide</p>
       </div>
       <div className="col-12 ">
         <h5 className="fw-bold- text-success">Our Mission</h5>

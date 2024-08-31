@@ -35,6 +35,11 @@ const Header = () => {
             </Link>
           </li>
           <li className="navItem">
+            <Link to='/about' className="navLink">
+              About
+            </Link>
+          </li>
+          <li className="navItem">
             <Link to='/trails' className="navLink">
             Trails
             </Link>
@@ -52,11 +57,6 @@ const Header = () => {
           <li className="navItem">
             <Link to='/whattowear' className="navLink">
             What to Wear
-            </Link>
-          </li>
-          <li className="navItem">
-            <Link to='/about' className="navLink">
-              About
             </Link>
           </li>
           {user && !user.is_admin && (

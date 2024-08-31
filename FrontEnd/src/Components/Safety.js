@@ -18,7 +18,7 @@ const Safety = () => {
             <div className='secTitle'>
                 <div className='title'>
                 </div>
-                    <h1 className='wear'> Safety First Always</h1>
+                    <h1 className='wear fw-bold'> Safety First Always</h1>
                     <h6 className='text-dark text-center'>Your safety and enjoyment is our priority during all hiking adventures in the Philippines.</h6>
       </div>
 
