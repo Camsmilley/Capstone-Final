@@ -19,7 +19,9 @@ const Mission = () => {
       </div>
       <div className="col-12 ">
         <h5 className="fw-bold- text-success" style={{marginTop: '-30px'}}>Our Purpose</h5>
-        <p>To never stop exploring trails that expand both consumers and companies choices to discover and decide</p>
+        <p>Treks Safari is a team of dynamic personalities whose interest in the outdoors has taken them to far off destinations from mountains to distant seas.
+           There is no greater feeling when you are out there experiencing nature. We want to share our travels with you as we offer different
+            packages in trekking, being the leading hiking company our knowledge of the Philippine mountains is unrivaled.</p>
       </div>
       <div className="col-12 ">
         <h5 className="fw-bold- text-success">Our Mission</h5>
