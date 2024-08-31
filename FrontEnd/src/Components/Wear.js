@@ -2,8 +2,11 @@ import {useEffect} from 'react'
 import './Wear.css'
 import { GoDotFill } from "react-icons/go";
 import img from '../assets/gear.webp';
-import img1 from '../assets/hike1.webp';
+import img1 from '../assets/jacket.jpg';
 import img2 from '../assets/hike2.webp';
+import img5 from '../assets/long.jpg';
+import img6 from '../assets/pants.jpg';
+import img7 from '../assets/rain.jpg';
 import img3 from '../assets/poles.webp';
 import img4 from '../assets/knee.jpg'
 import Header from './Header';
@@ -22,14 +25,14 @@ const Wear = () => {
                 <div className='title'>
                 </div>
                     <h1 className='wear'> What to Wear Hiking?</h1>
-                    <h6 className='text-dark text-start'>While you really don’t need any kind of specialized gear for easy hikes or if you are 
-                        just starting out, for harder hikes I recommend wearing the following:</h6>
+                    <h6 className='text-dark text-start'>Can't wait to hit the trails? Here's a checklist of the most basic hiking attire 
+                      <br/>requirements to get you out there, stat:</h6>
       </div>
-      <div className='paragraph1'>
+      <div className='paragraph1' style={{marginTop: '-30px'}}>
       <div className="col-12 t-10 ">
         <p><GoDotFill className="icon"/>Hiking boots or trail runners<br/>
             <GoDotFill className="icon"/>Moisture-wicking T-shirt or tank top OR<br/>
-            <GoDotFill className="icon"/>Lightweight, breathable long-sleeve shirt (I wear this even on hot days to protect my skin from the sun)<br/>
+            <GoDotFill className="icon"/>Lightweight, breathable long-sleeve shirt (wear this even on hot days to protect your skin from the sun)<br/>
             <GoDotFill className="icon"/>Quick-drying hiking shorts, convertible pants, or leggings.  <br/>
             <GoDotFill className="icon"/>Hiking socks</p>
       </div>
@@ -38,38 +41,37 @@ const Wear = () => {
   <div class="col-md-3 p-2 bg-white rounded-5">
     <img src={img} class="card-img-top rounded-5" alt="..."/>
     <div class="card-body bg-white">
-      <h5 class="card-title">Materials</h5>
+      <h5 class="card-title">Materials Needed to Hike</h5>
     </div>
   </div>
   <div class="card col-md-3 p-2 bg-white rounded-5">
     <img src={img1} class="card-img-top rounded-5" alt="..."/>
     <div class="card-body bg-white">
-      <h5 class="card-title">What Not to Wear in Your First Hiking Outfit
-      Cotton</h5>
+      <h5 class="card-title">Warm Jacket</h5>
     </div>
   </div>
   <div class="card col-md-3 p-2 bg-white rounded-5">
     <img src={img2} class="card-img-top rounded-5" alt="..."/>
     <div class="card-body bg-white">
-      <h5 class="card-title">What Shoes to Wear Hiking</h5>
+      <h5 class="card-title">Shoes to Wear Hiking</h5>
     </div>
   </div>
   <div class="card col-md-3 p-2 bg-white rounded-5">
-    <img src={img2} class="card-img-top rounded-5" alt="..."/>
+    <img src={img5} class="card-img-top rounded-5" alt="..."/>
     <div class="card-body bg-white">
-      <h5 class="card-title">What Shoes to Wear Hiking</h5>
+      <h5 class="card-title">Moisture-wicking Long Sleeve</h5>
     </div>
   </div>
   <div class="card col-md-3 p-2 bg-white rounded-5">
-    <img src={img2} class="card-img-top rounded-5" alt="..."/>
+    <img src={img6} class="card-img-top rounded-5" alt="..."/>
     <div class="card-body bg-white">
-      <h5 class="card-title">What Shoes to Wear Hiking</h5>
+      <h5 class="card-title">Comfortable and sturdy pants</h5>
     </div>
   </div>
   <div class="card col-md-3 p-2 bg-white rounded-5">
-    <img src={img2} class="card-img-top rounded-5" alt="..."/>
+    <img src={img7} class="card-img-top rounded-5" alt="..."/>
     <div class="card-body bg-white">
-      <h5 class="card-title">What Shoes to Wear Hiking</h5>
+      <h5 class="card-title">Rain Coat</h5>
     </div>
   </div>
           </div><br/>
